@@ -448,6 +448,7 @@
 	}
 
 	header {
+
 		p {
 			color: _palette(fg-bold);
 			position: relative;
@@ -1473,11 +1474,12 @@
 		width: 100%;
 		z-index: 100;
 
+	
 		h1 {
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
-			margin: 0;
+			margin: 10px 0;
 			position: absolute;
 			top: 0;
 		}
