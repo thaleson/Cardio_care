@@ -4109,3 +4109,58 @@ input, select, textarea {
 					}
 
 	}
+	
+	/* Estilos para os botões */
+.buttonfato {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049; /* Altera a cor de fundo ao passar o mouse */
+}
+
+/* Estilos para os emoticons */
+.emoticon {
+    font-size: 20px; /* Tamanho do emoticon */
+    vertical-align: middle; /* Alinha verticalmente com o texto */
+    margin-right: 5px; /* Margem à direita para separação do texto */
+}
+
+
+.buttonfake
+
+{
+    background-color: #1f2061; /* Cor de fundo verde */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0b0c0b; /* Altera a cor de fundo ao passar o mouse */
+}
+
+/* Estilos para os emoticons */
+.emoticon {
+    font-size: 20px; /* Tamanho do emoticon */
+    vertical-align: middle; /* Alinha verticalmente com o texto */
+    margin-right: 5px; /* Margem à direita para separação do texto */
+	
+}
