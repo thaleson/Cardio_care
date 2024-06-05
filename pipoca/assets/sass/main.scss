@@ -580,7 +580,7 @@
 	}
 
 	input[type="checkbox"],
-	input[type="radio"], {
+	input[type="radio"] {
 		@include vendor('appearance', 'none');
 		display: block;
 		float: left;
@@ -1305,8 +1305,8 @@
 	.wrapper {
 		padding: $size-wrapper-pad-tb 0 ($size-wrapper-pad-tb - _size(element-margin)) 0;
 
-		&.style1 {
-		}
+		// &.style1 {
+		// }
 
 		&.style2 {
 			background: _palette(accent1);
@@ -1479,7 +1479,7 @@
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
-			margin: 10px 0;
+			margin:10px 0;
 			position: absolute;
 			top: 0;
 		}
