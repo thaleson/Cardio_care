@@ -2180,7 +2180,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 4em 0;
+		margin: 0 0 2.5em 0;
 		position: relative;
 		text-align: center;
 	}
@@ -4163,4 +4163,43 @@ input, select, textarea {
     vertical-align: middle; /* Alinha verticalmente com o texto */
     margin-right: 5px; /* Margem à direita para separação do texto */
 	
+}
+
+/* Accordion */
+.accordion{
+	background-color: #1c1d26;
+	color: rgba(255, 255, 255, 0.75);
+	font-family: "Roboto", Helvetica, sans-serif;
+	font-size: 15pt;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	outline: none;
+	transition: 0.7s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+	background-color: #615c5c;
+}
+
+.accordion:after {
+	content: '\25B6'; /* Unicode character for "black right-pointing triangle" (►) */
+	font-size: 13px;
+	color: #777;
+	float: right;
+	margin-left: 5px;
+}
+  
+.active:after {
+	content: '\25BC'; /* Unicode character for "black down-pointing triangle" (▼) */
+}
+
+.panel {
+	padding: 0 18px;
+	text-align: justify;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.7s ease-out;
 }
