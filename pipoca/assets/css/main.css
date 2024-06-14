@@ -3610,6 +3610,28 @@ input, select, textarea {
     box-sizing: border-box;
 }
 
+/* ----- Sobrenos titulo logo -------------------*/
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-direction: column;
+	text-align: center; 
+}
+
+.title-wrapper h2 {
+    margin-right: 20px; /* Espaço entre o título e o logotipo */
+    font-size: 2em;
+    color: #ddd;
+}
+
+.title-wrapper .logo {
+    width: 200px;
+    height: auto;
+	border-radius: 25%;
+	margin: 30px 30px 0 0;
+}
+
 @media screen and (max-width: 1200px) {
     .integrante {
         width: calc(50% - 40px); /* two columns with 20px margin */
